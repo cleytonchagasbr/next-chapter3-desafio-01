@@ -1,1 +1,51 @@
-// TODO
+.container {
+  max-width: 1128px;
+  margin: 0 auto;
+}
+
+.content {
+  margin-bottom: 1.25rem;
+  h2 {
+    margin-bottom: 1.5rem;
+  }
+  h3 {
+    margin-left: 1rem;
+  }
+  div {
+    display: flex;
+  }
+
+  time {
+    margin-left: 1rem;
+  }
+  a {
+    cursor: pointer;
+  }
+}
+
+.contentInfo {
+  display: flex;
+  align-items: center;
+
+  div {
+    display: flex;
+    align-items: center;
+  }
+
+  div {
+    margin-right: 2rem;
+  }
+
+  h3, time {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--gray-500);
+  }
+}
+
+.btnCarregarMais {
+  background: transparent;
+  border: none;
+  color: var(--rosa);
+  margin-top: 1.5rem;
+}
